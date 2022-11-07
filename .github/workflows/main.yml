@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-
     steps:
-      - name: "show folder"
-        run: ls
+      - uses: actions/checkout@v3
+      - name: "login to docker hub"
+        run: docker login --username ahmedattia900 --password dckr_pat_c6H7L-O7h8GK5OlaU4-9836Rde8
