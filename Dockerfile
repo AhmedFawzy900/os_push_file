@@ -2,8 +2,8 @@ FROM openjdk
 
 WORKDIR /application
 
-COPY ahmed.java .
+COPY attia.java .
 
-RUN javac ahmed.java
+RUN javac attia.java
 
-CMD java ahmed
+CMD java attia
